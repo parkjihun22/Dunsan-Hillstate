@@ -74,7 +74,7 @@ const Interior1 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.alwatanyh.com/Interior/59A"
+          href="https://www.ys-sujain.co.kr/Interior/59A"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -88,11 +88,11 @@ const Interior1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.alwatanyh.com/Main1.png"
+          content="https://www.ys-sujain.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.alwatanyh.com/Interior/59A"
+          content="https://www.ys-sujain.co.kr/Interior/59A"
         />
         <meta property="og:site_name" content="힐스테이트 둔산" />
 
@@ -108,16 +108,16 @@ const Interior1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.alwatanyh.com/Main1.png"
+          content="https://www.ys-sujain.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.alwatanyh.com/Interior/59A"
+          content="https://www.ys-sujain.co.kr/Interior/59A"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 둔산 - 인테리어",		"description": "인테리어 페이지에서는 힐스테이트 둔산 59타입의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.",		"url": "https://www.alwatanyh.com/Interior/59A"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 둔산 - 인테리어",		"description": "인테리어 페이지에서는 힐스테이트 둔산 59타입의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.",		"url": "https://www.ys-sujain.co.kr/Interior/59A"	}	`}
         </script>
       </Helmet>
 

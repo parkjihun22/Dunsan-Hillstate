@@ -65,7 +65,7 @@ const LocationEnvironment1 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.alwatanyh.com/LocationEnvironment/primium"
+          href="https://www.ys-sujain.co.kr/LocationEnvironment/primium"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -79,11 +79,11 @@ const LocationEnvironment1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.alwatanyh.com/Main1.png"
+          content="https://www.ys-sujain.co.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.alwatanyh.com/LocationEnvironment/primium"
+          content="https://www.ys-sujain.co.kr/LocationEnvironment/primium"
         />
         <meta property="og:site_name" content="힐스테이트 둔산" />
 
@@ -99,16 +99,16 @@ const LocationEnvironment1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.alwatanyh.com/Main1.png"
+          content="https://www.ys-sujain.co.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.alwatanyh.com/LocationEnvironment/primium"
+          content="https://www.ys-sujain.co.kr/LocationEnvironment/primium"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 둔산 - 프리미엄",		"description": "힐스테이트 둔산의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다.",		"url": "https://www.alwatanyh.com/LocationEnvironment/primium"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 둔산 - 프리미엄",		"description": "힐스테이트 둔산의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다.",		"url": "https://www.ys-sujain.co.kr/LocationEnvironment/primium"	}	`}
         </script>
       </Helmet>
 
