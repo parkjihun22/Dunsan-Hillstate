@@ -208,7 +208,7 @@ const Main = () => {
                 <div className={styles.mainImageText}>대전이 기다린</div>
                 <div className={styles.mainImageLine}></div>
                 <div className={styles.mainImageText}>
-                  힐스테이트둔산
+                  힐스테이트 둔산
                 </div>
                
               </div>
@@ -486,7 +486,7 @@ const Main = () => {
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>
-                  힐스테이트둔산
+                  힐스테이트 둔산
                 </div>
 
               </div>
