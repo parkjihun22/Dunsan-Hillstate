@@ -70,7 +70,7 @@ const ComplexGuide3 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.ys-sujain.co.kr/ComplexGuide/community"
+          href="https://www.a7lashare.com/ComplexGuide/community"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -84,11 +84,11 @@ const ComplexGuide3 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.ys-sujain.co.kr/Main1.png"
+          content="https://www.a7lashare.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.ys-sujain.co.kr/ComplexGuide/community"
+          content="https://www.a7lashare.com/ComplexGuide/community"
         />
         <meta property="og:site_name" content="힐스테이트 둔산" />
 
@@ -104,16 +104,16 @@ const ComplexGuide3 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.ys-sujain.co.kr/Main1.png"
+          content="https://www.a7lashare.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.ys-sujain.co.kr/ComplexGuide/community"
+          content="https://www.a7lashare.com/ComplexGuide/community"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 둔산 - 커뮤니티",		"description": "힐스테이트 둔산의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.",		"url": "https://www.ys-sujain.co.kr/ComplexGuide/community"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 둔산 - 커뮤니티",		"description": "힐스테이트 둔산의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.",		"url": "https://www.a7lashare.com/ComplexGuide/community"	}	`}
         </script>
       </Helmet>
 
