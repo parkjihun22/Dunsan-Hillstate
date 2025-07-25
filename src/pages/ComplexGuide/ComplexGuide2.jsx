@@ -70,7 +70,7 @@ const ComplexGuide1 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.a7lashare.com/ComplexGuide/detailintro"
+          href="https://www.dwbsongs.com/ComplexGuide/detailintro"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -84,11 +84,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.a7lashare.com/Main1.png"
+          content="https://www.dwbsongs.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.a7lashare.com/ComplexGuide/detailintro"
+          content="https://www.dwbsongs.com/ComplexGuide/detailintro"
         />
         <meta property="og:site_name" content="힐스테이트 둔산" />
 
@@ -104,16 +104,16 @@ const ComplexGuide1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.a7lashare.com/Main1.png"
+          content="https://www.dwbsongs.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.a7lashare.com/ComplexGuide/detailintro"
+          content="https://www.dwbsongs.com/ComplexGuide/detailintro"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 둔산 - 호수배치도", "description": "힐스테이트 둔산의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다 ",		"url": "https://www.a7lashare.com/ComplexGuide/detailintro"	}	`}
+          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 둔산 - 호수배치도", "description": "힐스테이트 둔산의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다 ",		"url": "https://www.dwbsongs.com/ComplexGuide/detailintro"	}	`}
         </script>
       </Helmet>
 
