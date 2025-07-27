@@ -11,7 +11,7 @@ import InterestPopup from "../InterestPopup/InterestPopup";
 
 // FAMILY SITE 목록 예시
 const partnerSites = [
-  { name: "힐스테이트둔산", url: "https://www.alwatanyh.com" },
+  { name: "힐스테이트 둔산", url: "https://www.dwbsongs.com" },
 
 ];
 
