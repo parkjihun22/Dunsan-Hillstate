@@ -1,155 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <rss version="2.0">
-    <channel>
-        <title>힐스테이트둔산</title>
-        <link>https://www.dwbsongs.com/</link>
-        <description>
-            힐스테이트둔산 대표홈페이지 사전청약 접수중
-        </description>
-        <language>ko-kr</language>
+  <channel>
+    <title>힐스테이트둔산</title>
+    <link>https://www.dwbsongs.com/</link>
+    <description>
+      힐스테이트둔산ㅣ☎️(대표)1533‑8848ㅣ힐스테이트둔산ㅣ오피스텔ㅣ탄방동ㅣ모델하우스ㅣ청약ㅣ분양정보ㅣ고객센터
+    </description>
+    <language>ko-kr</language>
+
+    <item>
+      <title>힐스테이트둔산</title>
+      <link>https://www.dwbsongs.com/Brand/intro</link>
+      <description>대전 서구 용문역 초역세권 입지에 들어서는 총 600실 규모의 힐스테이트 브랜드 오피스텔입니다. 중심생활권의 미래가치를 제시합니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>브랜드 영상</title>
+      <link>https://www.dwbsongs.com/Brand/video</link>
+      <description>힐스테이트 둔산의 입지, 교통 호재, 생활 인프라를 영상으로 소개합니다. 브랜드 철학과 단지의 가치를 한눈에 확인하세요.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>사업안내</title>
+      <link>https://www.dwbsongs.com/BusinessGuide/intro</link>
+      <description>대전 서구 탄방동 591번지 일대에 조성되는 힐스테이트 둔산 사업 개요 및 위치 안내를 제공합니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>분양일정</title>
+      <link>https://www.dwbsongs.com/BusinessGuide/plan</link>
+      <description>청약 접수일정, 모델하우스 오픈 일정 등 힐스테이트 둔산 분양 계획을 한눈에 확인할 수 있습니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>계약서류안내</title>
+      <link>https://www.dwbsongs.com/BusinessGuide/documents</link>
+      <description>계약자 필수 서류 목록, 체크리스트 등 계약 준비에 필요한 모든 정보를 제공합니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>인터넷청약</title>
+      <link>https://www.dwbsongs.com/SalesInfo/guide</link>
+      <description>온라인 청약방법 및 절차 안내. 간편하고 신속하게 청약 신청할 수 있는 온라인 가이드를 제공합니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>체크포인트</title>
+      <link>https://www.dwbsongs.com/SalesInfo/SubscriptionGuide</link>
+      <description>청약 자격조건, 준비사항, 당첨 전략 등 청약 성공을 위한 핵심 체크포인트를 정리했습니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>모집공고안내</title>
+      <link>https://www.dwbsongs.com/SalesInfo/announcement</link>
+      <description>힐스테이트 둔산 모집공고 전문 제공. 공급 조건, 세부 사항, 모집 일정 등 공식 안내입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>인지세납부안내</title>
+      <link>https://www.dwbsongs.com/SalesInfo/stampTax</link>
+      <description>계약 시 필요한 인지세 납부 절차 및 금액 안내. 구매 절차 준비를 위한 필수 자료입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>프리미엄</title>
+      <link>https://www.dwbsongs.com/LocationEnvironment/intro</link>
+      <description>지하철 1호선 용문역 초역세권 + 충청권 광역철도 예정역 정차, 생활 인프라 및 자연환경까지 갖춘 힐스테이트 둔산의 프리미엄 요소입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>커뮤니티</title>
+      <link>https://www.dwbsongs.com/LocationEnvironment/community</link>
+      <description>입주민 전용 피트니스센터, 독서실, 실내 골프연습장 등 고품격 커뮤니티 시설과 안전한 단지 배치 구성입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>동호수배치도</title>
+      <link>https://www.dwbsongs.com/ComplexGuide/intro</link>
+      <description>단지 내 동·호수 배치도 정보 제공. 세대 선택 및 동선 확인에 유용한 필수 안내입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>59A</title>
+      <link>https://www.dwbsongs.com/FloorPlan/59A</link>
+      <description>59㎡ 중소형 평형으로 실용성을 갖춘 평면 구성. 채광과 통풍을 고려한 설계로 실거주자에 적합합니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>59B</title>
+      <link>https://www.dwbsongs.com/FloorPlan/84A</link>
+      <description>84㎡대 실속형 평면 구성으로 공간 활용도 높음. 가족 중심 실거주에 최적화된 구조입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>84A</title>
+      <link>https://www.dwbsongs.com/FloorPlan/84A</link>
+      <description>84㎡A 타입 평면도. 최신 트렌드 반영한 내부 설계와 여유로운 공간 구성 제공.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>84B</title>
+      <link>https://www.dwbsongs.com/FloorPlan/84B</link>
+      <description>84㎡B 타입 평면도. 가족 중심 공간 설계와 프라이버시 확보를 고려한 구성입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>119A</title>
+      <link>https://www.dwbsongs.com/FloorPlan/114A</link>
+      <description>119㎡ 평형 평면도. 대형 평형의 여유로운 공간과 고급스러운 구조로 구성되었습니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>E-모델하우스</title>
+      <link>https://www.dwbsongs.com/VirtualModelHouse/intro</link>
+      <description>온라인으로 만나는 E‑모델하우스. 방문 전 단지와 평면, 인테리어를 가상 체험할 수 있는 최신 시스템입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>59A 인테리어</title>
+      <link>https://www.dwbsongs.com/Interior/59A</link>
+      <description>59㎡A 타입 인테리어 스타일. 실용성과 트렌디함을 겸비한 내부 분위기 구성입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
+
+    <item>
+      <title>84A 인테리어</title>
+      <link>https://www.dwbsongs.com/Interior/84A</link>
+      <description>84㎡A 타입 인테리어. 고급 마감재와 실내 디자인으로 도시적 감성이 잘 표현된 공간입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
 
         <item>
-            <title>힐스테이트둔산</title>
-            <link>https://www.dwbsongs.com/Brand/intro</link>
-            <description>힐스테이트둔산의 건설사 브랜드 가치에 대한 설명란입니다
-           힐스테이트트는 사람과 자연이 함께하는 주거 문화 공간을 표방하며 ‘편안하고 살기 좋은 집’이라는 주거 공간의 본질에 대한 메시지로 브랜드 신뢰감을 지속적으로 구축해왔습니다.
-            1994년 업계 최초 ‘그린 홈, 크린 아파트’의 친환경 개념을 도입하였고 2003년에는 친환경 주거 철학을 집약한 현대건설 브랜드를 론칭했습니다.</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>브랜드 영상</title>
-            <link>https://www.dwbsongs.com/Brand/video</link>
-            <description>힐스테이트둔산의 대한 홍보영상입니다</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
+      <title>언론보도</title>
+      <link>https://www.dwbsongs.com/Media/news</link>
+      <description>대전 지역 언론에 소개된 힐스테이트 둔산 관련 기사 모음. 개발호재, 교통, 입지 분석 보도 포함.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
 
-        <item>
-            <title>사업안내</title>
-            <link>https://www.dwbsongs.com/BusinessGuide/intro</link>
-            <description>단지명 힐스테이트둔산
-            사업명 힐스테이트둔산 신축공사 대전광역시 서구 탄방동 591,592번지</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>분양일정</title>
-            <link>https://www.dwbsongs.com/BusinessGuide/plan</link>
-            <description>단지명 힐스테이트둔산 
-            힐스테이트둔산 아파트 신축공사 대전광역시 서구 탄방동 591,592번지에 들어오는 힐스테이트둔산의 분양일정을 확인하세요 </description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>계약서류안내</title>
-            <link>https://www.dwbsongs.com/BsinessGuide/documents</link>
-            <description>힐스테이트둔산아파트를 계약할때 필요한 구비서류 안내란입니다 </description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
+    <item>
+      <title>관심고객등록</title>
+      <link>https://www.dwbsongs.com/Contact/registration</link>
+      <description>관심고객 등록 시 청약정보, 모델하우스 오픈 정보, 분양 일정 등을 우선 제공해드리는 서비스입니다.</description>
+      <pubDate>Sun, 15 Jun 2025 14:00:00 KST</pubDate>
+    </item>
 
-        <item>
-            <title>인터넷청약</title>
-            <link>https://www.dwbsongs.com/SalesInfo/guide</link>
-            <description>힐스테이트둔산 아파트의 인터넷 청약을 쉽게 안내해드려
-            고객님의 성공적인 분양을 도와줍니다 </description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>체크포인트</title>
-            <link>https://www.dwbsongs.com/SalesInfo/SubscriptionGuide</link>
-            <description>힐스테이트둔산 아파트의 청약체크포인트를 확인하여 성공적인 분양을 지원합니다 </description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>모집공고안내</title>
-            <link>https://www.dwbsongs.com/SalesInfo/announcement</link>
-            <description>힐스테이트둔산 아파트의 모집공고를 제공하며 성공적인 분양을 지원합니다 </description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-
-        <item>
-            <title>인지세납부안내</title>
-            <link>https://www.dwbsongs.com/alesInfo/stampTax</link>
-            <description>힐스테이트둔산 아파트의 인지세납부정보를 제공하며 성공적인 분양을 지원합니다 </description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-
-        <item>
-            <title>프리미엄</title>
-            <link>https://www.dwbsongs.com/LocationEnvironment/intro</link>
-            <description>Be Premium 힐스테이트둔산 가져가야 할 핵심가치와 함께 본연의 고귀한 삶을 영위할 수 있도록 해주는 프리미엄 상품입니다.</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>커뮤니티</title>
-            <link>https://www.dwbsongs.com/LocationEnvironment/community</link>
-            <description>가족과 이웃, 자연이 함께 어우러진 다채로운 삶이 힐스테이트에 있습니다 
-            Greenery Lounge 가족과 이웃, 자연과 단지가 함께 어우러지며
-            라이프스타일이 돋보이는 힐스테이트둔산의 주민편의 시설을 의미합니다</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-
-        <item>
-            <title>동호수배치도</title>
-            <link>https://www.dwbsongs.com/ComplexGuide/intro</link>
-            <description>힐스테이트둔산의 호수 배치도 안내란입니다.</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-
-        <item>
-            <title>59A</title>
-            <link>https://www.dwbsongs.com/FloorPlan/59A</link>
-            <description>힐스테이트둔산의 59A타입의 평면도 안내란입니다.</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>59B</title>
-            <link>https://www.dwbsongs.com/FloorPlan/59B</link>
-            <description>힐스테이트둔산의 59B타입의 평면도 안내란입니다</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>84A</title>
-            <link>https://www.dwbsongs.com/FloorPlan/84A</link>
-            <description>힐스테이트둔산의 84타입의 평면도 안내란입니다</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>84B</title>
-            <link>https://www.dwbsongs.com/FloorPlan/84B</link>
-            <description>힐스테이트둔산의 84B타입의 평면도 안내란입니다</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>119A</title>
-            <link>https://www.dwbsongs.com/loorPlan/114A</link>
-            <description>힐스테이트둔산의 119A타입의 평면도 안내란입니다</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-
-        <item>
-            <title>119B</title>
-            <link>https://www.dwbsongs.com/FloorPlan/114B</link>
-            <description>힐스테이트둔산의 119B타입의 평면도 안내란입니다</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-        <item>
-            <title>84A</title>
-            <link>https://www.dwbsongs.com/Interior/59A</link>
-            <description>힐스테이트둔산의 84A타입의 인테리어정보를 제공하여 고객님들의 성공적인 분양을 도와드립니다</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-
-         <item>
-            <title>119A</title>
-            <link>https://www.dwbsongs.com/Interior/84A</link>
-            <description>브힐스테이트둔산의 119A타입의 인테리어정보를 제공하여 고객님들의 성공적인 분양을 도와드립니다</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-
-        <item>
-            <title>119B</title>
-            <link>https://www.dwbsongs.com/Interior/84B</link>
-            <description>힐스테이트둔산의 119B타입의 인테리어정보를 제공하여 고객님들의 성공적인 분양을 도와드립니다</description>
-            <pubDate>Mon, 04 Feb 2025 10:51:45 KST</pubDate>
-        </item>
-    </channel>
+  </channel>
 </rss>

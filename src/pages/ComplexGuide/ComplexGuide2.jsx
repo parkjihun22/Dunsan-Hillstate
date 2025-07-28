@@ -8,7 +8,10 @@ import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/ComplexGuide/ComplexGuide2/page1.webp";
+
+// import page1 from "../../assets/ComplexGuide/ComplexGuide2/page1.webp";
+
+import Ready from "../../components/Ready/Ready";
 
 
 const ComplexGuide1 = () => {
@@ -59,15 +62,13 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>힐스테이트 둔산 - 호수배치도</title>
+        <title>힐스테이트둔산 - 호수배치도</title>
         <meta
           name="description"
-          content="힐스테이트 둔산의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다"
+          content="힐스테이트둔산의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+"
         />
-        <meta
-          name="keywords"
-          content="힐스테이트둔산, 힐스테이트둔산모델하우스"
-        />
+        <meta name="keywords" content="둔산힐스테이트, 힐스테이트둔산, 임대" /> 
         <link
           rel="canonical"
           href="https://www.dwbsongs.com/ComplexGuide/detailintro"
@@ -76,11 +77,12 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="힐스테이트 둔산 - 호수배치도"
+          content="힐스테이트둔산 - 호수배치도"
         />
         <meta
           property="og:description"
-          content="힐스테이트 둔산의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다.	"
+          content="힐스테이트둔산의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+"
         />
         <meta
           property="og:image"
@@ -90,17 +92,18 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://www.dwbsongs.com/ComplexGuide/detailintro"
         />
-        <meta property="og:site_name" content="힐스테이트 둔산" />
+        <meta property="og:site_name" content="힐스테이트둔산" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="힐스테이트 둔산 - 호수배치도"
+          content="힐스테이트둔산 - 호수배치도"
         />
         <meta
           name="twitter:description"
-          content="힐스테이트 둔산의 호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다"
+          content="힐스테이트둔산의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+"
         />
         <meta
           name="twitter:image"
@@ -113,7 +116,16 @@ const ComplexGuide1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 둔산 - 호수배치도", "description": "힐스테이트 둔산의 단지호수배치도를 통해 각 동의 위치와 편의시설의 배치를 확인하세요. 효율적인 동선 설계와 조경 공간, 입주민의 생활 편의를 고려한 배치를 상세히 안내합니다 ",		"url": "https://www.dwbsongs.com/ComplexGuide/detailintro"	}	`}
+          {`
+										{
+											"@context": "https://schema.org",
+											"@type": "WebPage",
+											"name": "힐스테이트둔산 - 호수배치도",
+											"description": "힐스테이트둔산의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+",
+											"url": "https://www.dwbsongs.com/ComplexGuide/detailintro"
+										}
+										`}
         </script>
       </Helmet>
 
@@ -122,7 +134,7 @@ const ComplexGuide1 = () => {
       <Bener title="단지안내" />
       <MenuBar contents={menuContents} />
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 둔산 - 호수배치도
+        힐스테이트둔산 - 호수배치도
       </h1>
       <p className={styles.screenReaderOnly}>
         호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이
@@ -131,40 +143,33 @@ const ComplexGuide1 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>힐스테이트 둔산가 눈부신 가치 위에</div>
+        <div>힐스테이트둔산이 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      <img
+      {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="힐스테이트 둔산 호수배치도-image1"
+				alt="힐스테이트둔산 호수배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> 
+			/> */}
 
-      {/* <div className={styles.commonBox}>
-				<div className={styles.notice}>
-					※ 상기 호수배치도 이미지는 소비자의 이해를 돕기 위한 것으로 실제와 차이가 날 수 있습니다
-				</div>
-				<div className={styles.notice}>
-					※ 단지 내 조경 및 세부 식재계획, 시설물의 위치는 실제 시공시 현장 상황에 따라 변경될 수 있습니다
-				</div>
-				<div className={styles.notice}>
-					※ 각 동 출입구 근처/지상부에는 환기창의 돌출물 및 그릴이 각동 지상층에 설치될 예정으로 있으며, 이로 인해 냄새 및 소음, 분진등이 발생할 수 있으므로 사전에 분양 홍보물을 참조하여 확인하시기 바라며, 일부 위치 및 형태는 실제 시공시 변경될 수 있습니다
-				</div>
-				<div className={styles.notice}>
-					※ 단지 내 어린이놀이터, 주민운동시설, 휴게시설물, 수경시설의 배치와 디자인은 향후 변경될 수 있습니다.
-				</div>
-				<div className={styles.notice}>
-					※ 단지 외부의 건물, 녹지, 도로 등은 현재 상황 및 계획을 보여주는 것으로 당사의 시공범위가 아니며, CG 및 모형은 소비자의 이해를 돕기 위해 작성된 것으로 실제 조성시 상이할 수 있으며 이에 대한 이의를 제기할 수 없습니다.
-				</div>
-				<div className={styles.notice}>
-					※ 인접 지역 개발 등으로 향후 일조 및 조망과 관련한 변경 사항이 있을 수 있으며, 이에 따른 사업주체 및 시공사의 귀책사유는 없으므로, 사전에 사업부지 현장을 방문하여 확인하시기 바랍니다.
-				</div>
-			</div> */}
-
+      <Ready/>
   
+
+      <div className={styles.commonBox}>
+        <div className={styles.notice}>
+          ※ 상기 호수배치도 이미지는 소비자의 이해를 돕기 위한 것으로 실제와
+          차이가 날 수 있습니다
+        </div>
+        <div className={styles.notice}>
+          ※ 단지 내 조경 및 세부 식재계획, 시설물의 위치는 실제 시공시 현장
+          상황에 따라 변경될 수 있습니다
+        </div>
+        
+      </div>
+
       <Footer />
     </div>
   );

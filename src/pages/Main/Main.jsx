@@ -13,9 +13,13 @@ import UnitplanBox from "../../components/UnitplanBox/UnitplanBox";
 import MobilePopup from "../../components/MobilePopup/MobilePopup";
 import Popup from "../../components/Popup/Popup";
 import MobileSectionBox from "../../components/MobileSectionBox/MobileSectionBox";
-import InterestPopup from "../../components/InterestPopup/InterestPopup";
-// import UrlContainer from "../../components/UrlContainer/UrlContainer";
-
+import MobileOverviewSection from "../../components/MobileOverviewSection/MobileOverviewSection";
+import DarkComplexSection from "../../components/DarkComplexSection/DarkComplexSection";
+import InterestPopup from "../../components/InterestPopup/InterestPopup"; // 새 팝업 컴포넌트 import
+// import UrlContainer from "../../components/UrlContainer/UrlContainer";\
+import UnitInfoSection from "../../components/UnitInfoSection/UnitInfoSection";
+import MobileNewsSection from "../../components/MobileNewsSection/MobileNewsSection";
+import newsLists from "../../NewsList"
 
 import mainImage from "../../assets/Main/Main1.jpg";
 import section1_Image1 from "../../assets/Main/section1-img1.jpg";
@@ -47,36 +51,35 @@ const section3Contents = [
   {
     imgSrc: section3_Image1,
     title: "PREMIUM 01",
-    text1: `660세대 랜드마크 현대건설`,
-    text2: `대전을 대표할<br />
-			      브랜드 프리미엄`,
+    text1: `총 600실의 프리미엄 오피스텔`,
+    text2: `탄방역 초역세권 중심ㆍ대전 둔산 핵심 입지`,
     link: "/BusinessGuide/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image2,
     title: "PREMIUM 02",
-    text1: `여유로운 직주근접 단지`,
-    text2: `첨단 시스템반도체 국가산업단지(계획)<br />
-			      대전 반도체클러스터 일반산업단지 등`,
+    text1: `광역교통 호재 기대감`,
+    text2: `충청권 광역철도 예정역(용두역)과<br/>
+            도시철도 트램 연계 계획`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
-    text1: `우수한 교육환경`,
-    text2: `바로 앞 처인초·중교, 처인고교<br />
-			      학원가 조성등 원스톱 안심교육 환경`,
+    text1: `의료·생활 인프라 밀집`,
+    text2: `단지 반경 1km 내 병원급 의료시설·
+            쇼핑·문화시설 접근 용이`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
   },
   {
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
-    text1: `브랜드 프리미엄`,
-    text2: `베스트 아파트 브랜드 2년 연속 1위,<br />
-			      브랜드 평판 71개월 1위 브랜드 프리미엄`,
+    text1: `쾌적한 자연환경 인접`,
+    text2: `유등천 수변공원·중촌시민공원 인접으로
+            힐링 라이프 가능`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",
   },
@@ -94,14 +97,14 @@ const Main = () => {
   const [isInterestPopupOpen, setIsInterestPopupOpen] = useState(false); // 방문예약 팝업 상태
   const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
 
-  // 관심고객 등록 폼 상태 관리 (방문일자 필드 포함)
+  // 관심고객 등록 폼 상태 관리 (생년월일, 거주지역 필드 추가)
   const [registration, setRegistration] = useState({
     name: "",
     phone: "",
     birthday: "",
     residence: "",
   });
-  
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setRegistration((prev) => ({
@@ -192,11 +195,11 @@ const Main = () => {
             />
           )} */}
 
-          <div className={styles.imageContainer}>
+<div className={styles.imageContainer}>
             <img
               src={mainImage}
               className={styles.mainImage}
-              alt="힐스테이트둔산-mainimage1"
+              alt="힐스테이트 둔산-mainimage1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox}>
@@ -205,22 +208,19 @@ const Main = () => {
                 <span className={styles.greyText}>브랜드 프리미엄</span>
               </div>
               <div className={styles.mainImageTitleBox}>
-                <div className={styles.mainImageText}>대전이 기다린</div>
+                <div className={styles.mainImageText}>대전이 기다린 가장 착한아파트</div>
                 <div className={styles.mainImageLine}></div>
                 <div className={styles.mainImageText}>
-                  힐스테이트 둔산
+                  둔산 힐스테이트
                 </div>
-               
-              </div>
-              <div>
-              <button
+                <button
                   onClick={() => setIsInterestPopupOpen(true)}
                   className={styles.subPinkBtn}
                 >
                   <img
                     src={subpinkimg}
                     className={styles.subPinkImg}
-                    alt="힐스테이트둔산 관심고객등록 사진"
+                    alt="힐스테이트둔산 관심고객등록"
                   />
                 </button>
               </div>
@@ -233,13 +233,14 @@ const Main = () => {
               <div className={styles.textBox}>
                 <div className={styles.text1}>Location</div>
                 <div className={styles.text2}>
-                  " 방문 예약 고객 전원 신세계상품권 100% 증정 "
+                  힐스테이트 둔산 POINT
                 </div>
                 <div className={styles.text3}>
-                  - 대전 중심상업지구 매우인접 <br />
-                  - 첨단 아주대학교 종합병원 도보 5분 <br />
-                  - 대전 지제역 1호선, STR, KTX, GTX-A · C 확정으로 펜타역세권{" "}
-                  <br />- 모두를 누리는 힐스테이트둔산
+                  - 지하철 1호선 용문역 도보 약 5분, 초역세권<br />
+                  - 단지 인근 병원급 의료기관 밀집, 의료 인프라 우수<br />
+                  - 충청권 광역철도(용두역 예정) 포함된 광역교통 호재<br />
+                  - 유등천 수변공원 및 중촌시민공원 인접, 쾌적한 자연환경<br />
+                  - 롯데백화점·이마트 둔산점 등 생활 인프라 밀집
                 </div>
                 <div className={styles.text4}>
                   <a
@@ -269,18 +270,26 @@ const Main = () => {
             <div className={styles.section8}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                  소수만 누릴 수 있는<br />
-                  <span>최고의 브랜드 아파트<br /> 힐스테이트둔산</span>
+                  소수만 누릴 수 있는
+                  <br />
+                  <span>
+                    최고의 브랜드 아파트 <br />
+                    힐스테이트둔산
+                  </span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
-                    찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    힐스테이트둔산가 함께합니다
+                    찬란한 비전에 완벽한 주거가치까지 더해
+                    <br />
+                    힐스테이트둔산이 함께합니다
                   </div>
                 </div>
               </div>
-              <img src={section8Img3} alt="힐스테이트둔산 입지환경소개-image2" />
+              <img
+                src={section8Img3}
+                alt="힐스테이트둔산 입지환경소개-image2"
+              />
             </div>
           </div>
 
@@ -313,7 +322,7 @@ const Main = () => {
               </div>
               <img
                 src={section2_Image1}
-                alt="힐스테이트둔산아파트 조감도-image3"
+                alt="힐스테이트둔산 아파트 조감도-image3"
               />
             </div>
           </div>
@@ -324,8 +333,14 @@ const Main = () => {
                 <div key={index} className={styles.box}>
                   <img src={section.imgSrc} alt={section.title} />
                   <div className={styles.boxTitle}>{section.title}</div>
-                  <div className={styles.boxText1} dangerouslySetInnerHTML={{ __html: section.text1 }} />
-                  <div className={styles.boxText2} dangerouslySetInnerHTML={{ __html: section.text2 }} />
+                  <div
+                    className={styles.boxText1}
+                    dangerouslySetInnerHTML={{ __html: section.text1 }}
+                  />
+                  <div
+                    className={styles.boxText2}
+                    dangerouslySetInnerHTML={{ __html: section.text2 }}
+                  />
                   <Link to={section.link} className={styles.boxText3}>
                     {section.linkText}
                   </Link>
@@ -337,92 +352,102 @@ const Main = () => {
           <div className={styles.section}>
             <div className={styles.section4}>
               <div className={styles.imageBox}>
-                <img src={section4_Image1} alt="힐스테이트둔산 브랜드소개-image4" />
+                <img
+                  src={section4_Image1}
+                  alt="힐스테이트둔산 브랜드소개-image4"
+                />
                 <div className={styles.text1}>힐스테이트둔산</div>
                 <div className={styles.text2}>THE NATURAL NOBILITY</div>
-                <div className={styles.text3}>당신의 삶, 그 고귀함이 계속되길</div>
+                <div className={styles.text3}>
+                  당신의 삶, 그 고귀함이 계속되길
+                </div>
               </div>
               <div className={styles.textBox}>
                 <div className={styles.text1}>UNITPLAN</div>
                 <UnitplanBox />
-                <Link to="/FloorPlan/84A" className={styles.text2}>더 알아보기 {">"}</Link>
+                <Link to="/FloorPlan/84A" className={styles.text2}>
+                  더 알아보기 {">"}
+                </Link>
               </div>
             </div>
           </div>
           <div id="interestForm" className={styles.section}></div>
 
           {/* ================== 방문예약 섹션 (PC) ================== */}
-<div className={styles.pcVisitContainer}>
-  {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
-  <div className={styles.pcTitleRow}>
-    <div className={styles.leftTitle}>
-      <h2>힐스테이트둔산</h2>
-      <p>방문예약</p>
-    </div>
-    <div className={styles.rightText}>
-      방문예약 등록 시 모델하우스 주소 SMS발송 및
-      <br />
-      잔여세대를 안내드립니다.
-    </div>
-  </div>
+          <div className={styles.pcVisitContainer}>
+            {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
+            <div className={styles.pcTitleRow}>
+              <div className={styles.leftTitle}>
+                <h2>힐스테이트둔산</h2>
+                <p>방문예약</p>
+              </div>
+              <div className={styles.rightText}>
+                방문예약 등록 시 모델하우스 주소 SMS발송 및
+                <br />
+                잔여세대를 안내드립니다.
+              </div>
+            </div>
 
-  {/* 입력 폼 */}
-  <form
-    className={styles.pcVisitForm}
-    action="https://formspree.io/f/xvgzvlvr"
-    method="POST"
-  >
-    <label htmlFor="name">
-      고객명 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="text"
-      name="name"
-      placeholder="고객명"
-      value={registration.name}
-      onChange={handleInputChange}
-      required
-    />
+            {/* 입력 폼 */}
+            <form
+              className={styles.pcVisitForm}
+              action="https://formspree.io/f/mzzvgern"
+              method="POST"
+            >
+              <label htmlFor="name">
+                고객명 <span className={styles.redStar}>*</span>
+              </label>
+              <input
+                type="text"
+                name="name"
+                placeholder="고객명"
+                value={registration.name}
+                onChange={handleInputChange}
+                required
+              />
 
-    <label htmlFor="phone">
-      연락처 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="tel"
-      name="phone"
-      placeholder="010-0000-0000"
-      value={registration.phone}
-      onChange={handleInputChange}
-      required
-    />
+              <label htmlFor="phone">
+                연락처 <span className={styles.redStar}>*</span>
+              </label>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="010-0000-0000"
+                value={registration.phone}
+                onChange={handleInputChange}
+                required
+              />
 
-    <label htmlFor="message">
-      문의 내용
-    </label>
-    <textarea
-      name="message"
-      placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
-      value={registration.message}
-      onChange={handleInputChange}
-      rows={5}
-    />
 
-    <button type="submit">등록하기</button>
-  </form>
-</div>
+              <label htmlFor="message">
+                문의 내용
+              </label>
+              <textarea
+                name="message"
+                placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
+                value={registration.message}
+                onChange={handleInputChange}
+                rows={5}
+              />
+
+              <button type="submit">등록하기</button>
+            </form>
+          </div>
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
               <div className={styles.textBox}>
                 <div className={styles.title}>
-                힐스테이트둔산<br />
+                  힐스테이트둔산
+                  <br />
                   <span>견본주택 오시는길</span>
                 </div>
                 <div className={styles.subTitle}>
                   <div className={styles.textLine}></div>
                   <div className={styles.subText}>
-                    찬란한 비전에 완벽한 주거가치까지 더해<br />
-                    힐스테이트둔산가 함께합니다
+                    찬란한 비전에 완벽한 주거가치까지 더해
+                    <br />
+                    힐스테이트둔산이 함께합니다
                   </div>
                 </div>
               </div>
@@ -465,20 +490,27 @@ const Main = () => {
               popupImage={mobilePopupPage3}
               numbering={3}
             />
+          )}
+          {isOpenPopup4 && (
+            <MobilePopup
+              onClosed={() => setIsOpenPopup4(!isOpenPopup4)}
+              popupImage={mobilePopupPage3}
+              numbering={4}
+            />
           )} */}
-          
+
           <Header isChanged={isScroll} />
 
           <div className={styles.imageContainer}>
             <img
               src={mobileImageMain}
               className={styles.mainImage}
-              alt="힐스테이트둔산 mobilemain-image1"
+              alt="둔산힐스테이트 mobilemain-image1"
             />
             <div className={styles.overlay}></div>
             <div className={styles.mainImageTextBox1}>
               <div className={styles.mainImageTextSub1}>
-                반도체클러스터에서의 첫 시작<br/>
+                둔산에서의 첫 시작<br/>
                 브랜드 평판 1위 힐스테이트
                 <br />
                 <span className={styles.greyText1}>브랜드 프리미엄 </span>
@@ -486,27 +518,27 @@ const Main = () => {
               </div>
               <div className={styles.mainImageTitleBox1}>
                 <div className={styles.mainImageText1}>
-                  힐스테이트 둔산
+                  둔산힐스테이트
                 </div>
-
               </div>
             </div>
           </div>
 
+
+
+
           <div className={styles.container1}>
             <div className={styles.text1}>Location</div>
             <div className={styles.text2}>
-              "방문예약을 하시면 신세계 상품권 100% 증정 "
-            </div>
-            <div className={styles.text3}>
-              - 대전 중심상업지구 가장인접한 입지
-              <br />
-              - 첨단 아주대학교 AI종합병원, 의료R＆D센터 도보 5분
-              <br />
-              - 대전 지제역 KTX, GTX-A · C 확정 삼성전자 대전캠퍼스, 초등학교,
-              수변공원
-              <br />- 모두를 누리는 반도체밸리 주거 타운의 완성
-            </div>
+            힐스테이트 둔산 POINT
+          </div>
+          <div className={styles.text3}>
+            - 지하철 1호선 용문역 도보 약 5분, 초역세권<br />
+            - 단지 인근 병원급 의료기관 밀집, 의료 인프라 우수<br />
+            - 충청권 광역철도(용두역 예정) 포함된 광역교통 호재<br />
+            - 유등천 수변공원 및 중촌시민공원 인접, 쾌적한 자연환경<br />
+            - 롯데백화점·이마트 둔산점 등 생활 인프라 밀집
+          </div>
             <div className={styles.text4}>
               {/* 외부 링크 대신 방문예약 클릭 시 팝업 호출 */}
               <a
@@ -521,11 +553,25 @@ const Main = () => {
               </a>
             </div>
           </div>
+          <MobileOverviewSection />
+          {/* ─── 2.5. 중간에 풀-스크린 이미지 섹션 ───
+         <div className={styles.mobileMiddleImage}>
+           <img
+             src={require("../../assets/Bener/event.jpg")}
+            alt="단지 전경 추가 이미지"
+             className={styles.middleImage}
+           />
+         </div> */}
+
+          {/* ② DarkComplexSection 추가 */}
+          <section className={styles.darkSection}>
+            <DarkComplexSection />
+          </section>
 
           <div className={styles.container7}>
             <div className={styles.textBox}>
               <div className={styles.title}>
-                대전의 중심으로 사는
+                둔산의 중심으로 사는
                 <br />
                 <span>최고의 브랜드 아파트</span>
               </div>
@@ -534,13 +580,13 @@ const Main = () => {
                 <div className={styles.subText}>
                   완벽한 비전중심에서 완벽한 주거가치까지 더해
                   <br />
-                  힐스테이트둔산가 함께합니다
+                  힐스테이트둔산이 함께합니다
                 </div>
               </div>
             </div>
             <img
               src={section8Img3}
-              alt="힐스테이트둔산 mobile입지안내-image1"
+              alt="힐스테이트둔산 모바일 입지안내 이미지"
             />
           </div>
 
@@ -558,23 +604,25 @@ const Main = () => {
               <div className={`${styles.text4} fadeUpRepeat`}>
                 살수록 자부심이 차원이 다른
                 <br />
-                프리미엄 주거라이프를 힐스테이트둔산 <br />
-                모델하우스에서 확인하세요
+                프리미엄 주거라이프를 <br /> 힐스테이트둔산에서<br />
+                확인하세요
               </div>
             </div>
             <img
               src={section2_Image1}
-              alt="힐스테이트둔산 mobile조감도-image1"
+              alt="힐스테이트둔산 모바일 조감도 이미지"
             />
           </div>
 
-          <div className={styles.container4}>
+          <UnitInfoSection />
+
+          {/* <div className={styles.container4}>
             <div className={styles.text1}>UNITPLAN</div>
             <UnitplanBox />
             <Link to="/FloorPlan/84A" className={styles.text2}>
               <div>더 알아보기 &gt;</div>
             </Link>
-          </div>
+          </div> */}
 
           <div className={styles.container6}>
             {section3Contents.map((section, idx) => (
@@ -590,7 +638,7 @@ const Main = () => {
           </div>
 
 
-          <div className={styles.container2}>
+          {/* <div className={styles.container2}>
             <div>
               <img
                 src={section1_Image1}
@@ -600,69 +648,77 @@ const Main = () => {
                 브랜드 소개 {">"}
               </Link>
             </div>
+          </div> */}
+          <MobileNewsSection newsList={newsLists} />
+
+          {/* 모바일 방문예약 섹션 */}
+          <div className={styles.mobileVisitContainer}>
+            <h2>힐스테이트둔산</h2>
+            <p className={styles.mobileSubTitle}>방문예약</p>
+            <p className={styles.mobileInfoText}>
+              방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
+              잔여세대를 안내드립니다.
+            </p>
+
+            <form
+              className={styles.mobileVisitForm}
+              action="https://formspree.io/f/mzzvgern"
+              method="POST"
+            >
+              <label htmlFor="name">
+                고객명 <span className={styles.redStar}>*</span>
+              </label>
+              <input
+                type="text"
+                name="name"
+                placeholder="고객명"
+                value={registration.name}
+                onChange={handleInputChange}
+                required
+              />
+
+              <label htmlFor="phone">
+                연락처 <span className={styles.redStar}>*</span>
+              </label>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="010-0000-0000"
+                value={registration.phone}
+                onChange={handleInputChange}
+                required
+              />
+              <label htmlFor="message">
+                문의 내용
+              </label>
+              <textarea
+                name="message"
+                placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
+                value={registration.message}
+                onChange={handleInputChange}
+                rows={5}
+              />
+
+
+
+
+              <button type="submit">등록하기</button>
+            </form>
           </div>
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
-              <img src={mobilemap1} alt="힐스테이트둔산 오시는길안내-mobileimage2" />
+              <img
+                src={mobilemap1}
+                alt="힐스테이트둔산 오시는길안내-mobileimage2"
+              />
             </div>
           </div> */}
-
-          {/* 모바일 방문예약 섹션 */}
-<div className={styles.mobileVisitContainer}>
-  <h2>힐스테이트둔산</h2>
-  <p className={styles.mobileSubTitle}>방문예약</p>
-  <p className={styles.mobileInfoText}>
-    방문예약 등록 시 모델하우스 주소 SMS발송 및<br />
-    잔여세대를 안내드립니다.
-  </p>
-
-  <form
-    className={styles.mobileVisitForm}
-    action="https://formspree.io/f/xvgzvlvr"
-    method="POST"
-  >
-    <label htmlFor="name">
-      고객명 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="text"
-      name="name"
-      placeholder="고객명"
-      value={registration.name}
-      onChange={handleInputChange}
-      required
-    />
-
-    <label htmlFor="phone">
-      연락처 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="tel"
-      name="phone"
-      placeholder="010-0000-0000"
-      value={registration.phone}
-      onChange={handleInputChange}
-      required
-    />
-    <label htmlFor="message">문의 내용</label>
-    <textarea
-      name="message"
-      placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
-      value={registration.message}
-      onChange={handleInputChange}
-      rows={5}
-    />
-
-    <button type="submit">등록하기</button>
-  </form>
-</div>
 
           <div className={styles.section5}>
             <Footer />
             <FixIcon />
           </div>
-
           {/* 방문예약 팝업 (모바일) */}
           {isInterestPopupOpen && (
             <InterestPopup

@@ -12,15 +12,17 @@ import tableImage from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg
 import { Helmet } from "react-helmet-async";
 
 
+
+
 const projectData = [
-	{ label: '사업명', value: '힐스테이트 둔산' },
-	{ label: '사업위치', value: '경기 대전시 처인구 남사읍 아곡리 705번지 7BL' },
-	{ label: '대지면적', value: '106,050.4985㎡' },
-	{ label: '건축면적', value: '13,404.3638㎡' },
-	{ label: '연면적', value: '376,069.7623㎡' },
-	{ label: '용적률', value: '229.55%' },
-	{ label: '건축규모', value: 'B2-27F, 7개동' },
-	{ label: '세대수', value: '660세대 / 84㎡A·B·C / 109㎡A·B·C / 132㎡A / 150㎡PA·PB·PC / 182㎡P' },
+  { label: '사업명', value: '힐스테이트 둔산 오피스텔' },
+  { label: '사업위치', value: '대전광역시 서구 탄방동 591번지 일원' },
+  { label: '대지면적', value: '정보 미공개' },
+  { label: '건축면적', value: '정보 미공개' },
+  { label: '연면적', value: '정보 미공개' },
+  { label: '용적률', value: '정보 미공개' },
+  { label: '건축규모', value: '지하 7층 ~ 지상 37층, 4개동' },
+  { label: '세대수', value: '총 600실 오피스텔' },
 ];
 
 const BusinessGuide1 = () => {
@@ -64,36 +66,36 @@ const BusinessGuide1 = () => {
 				<meta name="robots" content="index, follow" />
 
 				{/* SEO 최적화를 위한 메타 태그 */}
-				<title>힐스테이트 둔산 - 사업안내</title>
+				<title>힐스테이트둔산 - 사업안내</title>
 				<meta
 					name="description"
-					content="힐스테이트 둔산의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+					content="힐스테이트둔산의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
 				/>
 				<meta
 					name="keywords"
-					content="힐스테이트둔산, 힐스테이트둔산모델하우스"
+					content="힐스테이트둔산, 둔산힐스테이트, 사업개요"
 				/>
-				<link rel="canonical" href="https://www.dwbsongs.com/BusinessGuide/intro" />
+				<link rel="canonical" href="https://www.alwatanyh.com/BusinessGuide/intro" />
 
 				{/* Open Graph - 소셜 미디어 공유 최적화 */}
-				<meta property="og:title" content="힐스테이트 둔산 - 사업안내" />
+				<meta property="og:title" content="힐스테이트둔산 - 사업안내" />
 				<meta
 					property="og:description"
-					content="힐스테이트 둔산의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+					content="힐스테이트둔산의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
 				/>
-				<meta property="og:image" content="https://www.dwbsongs.com/Main1.png" />
-				<meta property="og:url" content="https://www.dwbsongs.com/BusinessGuide/intro" />
-				<meta property="og:site_name" content="힐스테이트 둔산" />
+				<meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
+				<meta property="og:url" content="https://www.alwatanyh.com/BusinessGuide/intro" />
+				<meta property="og:site_name" content="힐스테이트둔산" />
 
 				{/* Twitter 카드 설정 */}
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content="힐스테이트 둔산 - 사업안내" />
+				<meta name="twitter:title" content="힐스테이트둔산 - 사업안내" />
 				<meta
 					name="twitter:description"
-					content="힐스테이트 둔산의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+					content="힐스테이트둔산의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
 				/>
-				<meta name="twitter:image" content="https://www.dwbsongs.com/Main1.png" />
-				<meta name="twitter:url" content="https://www.dwbsongs.com/BusinessGuide/intro" />
+				<meta name="twitter:image" content="https://www.alwatanyh.com/Main1.png" />
+				<meta name="twitter:url" content="https://www.alwatanyh.com/BusinessGuide/intro" />
 
 				{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
 				<script type="application/ld+json">
@@ -101,9 +103,9 @@ const BusinessGuide1 = () => {
 					{
 						"@context": "https://schema.org",
 						"@type": "WebPage",
-						"name": "힐스테이트 둔산 - 사업안내",
-						"description": "힐스테이트 둔산의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다.",
-						"url": "https://www.dwbsongs.com/BusinessGuide/intro"
+						"name": "힐스테이트둔산 - 사업안내",
+						"description": "힐스테이트둔산의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다.",
+						"url": "https://www.alwatanyh.com/BusinessGuide/intro"
 					}
 					`}
 				</script>
@@ -116,17 +118,17 @@ const BusinessGuide1 = () => {
 
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-			<h1 className={styles.screenReaderOnly}>힐스테이트 둔산 - 사업안내</h1>
+			<h1 className={styles.screenReaderOnly}>힐스테이트둔산 - 사업안내</h1>
 			<p className={styles.screenReaderOnly}>
-				힐스테이트 둔산는 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.
+				힐스테이트둔산은 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.
 			</p>
 
 			<div className={styles.textBox}>
 				<div>특별한 라이프 컬렉션</div>
-				<div>힐스테이트 둔산의 새로운 자부심으로 찾아옵니다.</div>
+				<div>힐스테이트둔산의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
-			<img className={styles.img3} src={page1} alt="힐스테이트 둔산-image1"/>
+			<img className={styles.img3} src={page1} alt="힐스테이트둔산-image1"/>
 
 			<div className={styles.tableContainer}>
 				{!isMobile && <img className={styles.tableImg} src={tableImage} />}
@@ -147,7 +149,7 @@ const BusinessGuide1 = () => {
 					※ 본 홈페이지에 표기된 내용은 하기의 내용을 근거로 한 내용이며, 추후 계획의 변동 등은 당사와 무관합니다.
 				</div>
 				<div className={styles.notice}>
-					※ 첨단 시스템반도체 국가산업단지 국토교통부 승인(2024.12.26) * 국토교통부 제5차 국가철도망구축계획 경강선 연장(2024.1.22) 반영 * 대전특례시 건설정책과 반도체 고속도로 예비타당성조사 심의 통과(2024.8.23)
+					※ 첨단 시스템반도체 국가산업단지 국토교통부 승인(2024.12.26) * 국토교통부 제5차 국가철도망구축계획 경강선 연장(2024.1.22) 반영 * 용인특례시 건설정책과 반도체 고속도로 예비타당성조사 심의 통과(2024.8.23)
 				</div>
 				
 			</div> 

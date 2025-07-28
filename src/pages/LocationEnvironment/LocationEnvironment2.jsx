@@ -7,6 +7,7 @@ import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
+import Ready from "../../components/Ready/Ready";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 import page1 from "../../assets/LocationEnvironment/LocationEnvironment2/page1.jpg";
@@ -54,14 +55,14 @@ const LocationEnvironment1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>힐스테이트 둔산 - 프리미엄</title>
+        <title>힐스테이트둔산 - 프리미엄</title>
         <meta
           name="description"
-          content="힐스테이트 둔산의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다."
+          content="힐스테이트둔산만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다."
         />
         <meta
           name="keywords"
-          content="힐스테이트둔산, 힐스테이트둔산모델하우스"
+          content="힐스테이트둔산, 힐스테이트둔산, 힐스테이트둔산모델하우스"
         />
         <link
           rel="canonical"
@@ -71,11 +72,11 @@ const LocationEnvironment1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="힐스테이트 둔산 - 프리미엄"
+          content="힐스테이트둔산 - 프리미엄"
         />
         <meta
           property="og:description"
-          content="힐스테이트 둔산의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다."
+          content="힐스테이트둔산만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다."
         />
         <meta
           property="og:image"
@@ -85,17 +86,17 @@ const LocationEnvironment1 = () => {
           property="og:url"
           content="https://www.dwbsongs.com/LocationEnvironment/primium"
         />
-        <meta property="og:site_name" content="힐스테이트 둔산" />
+        <meta property="og:site_name" content="힐스테이트둔산" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="힐스테이트 둔산 - 프리미엄"
+          content="힐스테이트둔산 - 프리미엄"
         />
         <meta
           name="twitter:description"
-          content="힐스테이트 둔산의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다."
+          content="힐스테이트둔산만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다."
         />
         <meta
           name="twitter:image"
@@ -108,33 +109,44 @@ const LocationEnvironment1 = () => {
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
         <script type="application/ld+json">
-          {`	{		"@context": "https://schema.org",		"@type": "WebPage",		"name": "힐스테이트 둔산 - 프리미엄",		"description": "힐스테이트 둔산의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다.",		"url": "https://www.dwbsongs.com/LocationEnvironment/primium"	}	`}
+          {`
+										{
+											"@context": "https://schema.org",
+											"@type": "WebPage",
+											"name": "힐스테이트둔산 - 프리미엄",
+											"description": "힐스테이트둔산만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 힐스테이트만의 독보적인 가치를 제공합니다.",
+											"url": "https://www.dwbsongs.com/LocationEnvironment/primium"
+										}
+										`}
         </script>
       </Helmet>
 
       <Header isChanged={isScroll} />
       <FixIcon />
 
-      <Bener title="입지환경" />
+      <Bener title="프리미엄" />
 
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        힐스테이트 둔산 - 프리미엄
+        힐스테이트둔산 - 프리미엄
       </h1>
       <p className={styles.screenReaderOnly}>
-        힐스테이트 둔산의 차별화된 프리미엄을 만나보세요. 고급스러운
+        힐스테이트둔산만의 차별화된 프리미엄을 만나보세요. 고급스러운
         디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해
         힐스테이트만의 독보적인 가치를 제공합니다.
       </p>
 
       <div className={styles.textBox}>
-        <div>대전의 눈부신 가치 위에</div>
-        <div>힐스테이트 둔산의 새로운 자부심으로 찾아옵니다.</div>
+        <div>둔산의 눈부신 가치 위에</div>
+        <div>힐스테이트둔산의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
-      <img src={page1} className={styles.image3} alt="힐스테이트 둔산프리미엄-image1" />
- 
+      <img
+        src={page1}
+        className={styles.image3}
+        alt="힐스테이트둔산-image1"
+      />
 
       <Footer />
     </div>
