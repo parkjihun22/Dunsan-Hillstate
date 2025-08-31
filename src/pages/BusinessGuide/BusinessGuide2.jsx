@@ -9,9 +9,8 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 
-// import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
+import page1 from "../../assets/BusinessGuide/BusinessGuide2/page1.jpg";
 
-import Ready from "../../components/Ready/Ready"
 
 const BusinessGuide2 = () => {
     const menuContents = [
@@ -52,79 +51,44 @@ const BusinessGuide2 = () => {
 
     return (
         <div className={styles.container}>
-<Helmet>
-        {/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
+          <Helmet>
+            {/* 기본 메타 */}
+            <meta charSet="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>힐스테이트둔산 - 분양일정</title>
+            <meta 
+              name="description" 
+              content="힐스테이트둔산의 최신 분양일정을 확인하고 세부 사항을 확인하세요." 
+            />
+            <link rel="canonical" href="https://www.dwbsongs.com/BusinessGuide/plan" />
 
-        {/* SEO 최적화를 위한 메타 태그 */}
-        <title>힐스테이트둔산 - 분양일정</title>
-        <meta
-          name="description"
-          content="힐스테이트둔산의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!"
-        />
-        <meta name="keywords" content="둔산힐스테이트, 힐스테이트둔산, 임대" />
-        <link
-          rel="canonical"
-          href="https://www.dwbsongs.com/BusinessGuide/plan"
-        />
+            {/* Open Graph */}
+            <meta property="og:title" content="힐스테이트둔산 - 분양일정" />
+            <meta 
+              property="og:description" 
+              content="힐스테이트둔산의 최신 분양일정을 확인하고 세부 사항을 확인하세요." 
+            />
+            <meta property="og:image" content="https://www.dwbsongs.com/Main1.png" />
+            <meta property="og:url" content="https://www.dwbsongs.com/BusinessGuide/plan" />
 
-        {/* Open Graph - 소셜 미디어 공유 최적화 */}
-        <meta
-          property="og:title"
-          content="힐스테이트둔산 - 분양일정"
-        />
-        <meta
-          property="og:description"
-          content="힐스테이트둔산의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!"
-        />
-        <meta
-          property="og:image"
-          content="https://www.dwbsongs.com/Main1.png"
-        />
-        <meta
-          property="og:url"
-          content="https://www.dwbsongs.com/BusinessGuide/plan"
-        />
-        <meta property="og:site_name" content="힐스테이트둔산" />
+            {/* Twitter */}
+            <meta name="twitter:card" content="summary_large_image" />
 
-        {/* Twitter 카드 설정 */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="힐스테이트둔산 - 분양일정"
-        />
-        <meta
-          name="twitter:description"
-          content="힐스테이트둔산의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.dwbsongs.com/Main1.png"
-        />
-        <meta
-          name="twitter:url"
-          content="https://www.dwbsongs.com/BusinessGuide/plan"
-        />
+            {/* JSON-LD 구조화 데이터 */}
+            <script type="application/ld+json">
+              {`
+                {
+                  "@context": "https://schema.org",
+                  "@type": "WebPage",
+                  "name": "힐스테이트둔산 - 분양일정",
+                  "description": "힐스테이트둔산의 최신 분양일정을 확인하고 세부 사항을 확인하세요.",
+                  "url": "https://www.dwbsongs.com/BusinessGuide/plan"
+                }
+              `}
+            </script>
+          </Helmet>
 
-        {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
-        <script type="application/ld+json">
-          {`
-                                        {
-                                            "@context": "https://schema.org",
-                                            "@type": "WebPage",
-                                            "name": "힐스테이트둔산 - 분양일정",
-                                            "description": "힐스테이트둔산의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!",
-                                            "url": "https://www.dwbsongs.com/BusinessGuide/plan"
-                                        }
-                                        `}
-        </script>
-      </Helmet>
+
 
             <Header isChanged={isScroll} />
             <FixIcon />
@@ -143,8 +107,7 @@ const BusinessGuide2 = () => {
             </div>
 
             {/* ✅ 기존 이미지 부분 주석 처리하고 Ready 컴포넌트 표시 */}
-            {/* <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트둔산 분양일정안내-image1" /> */}
-            <Ready/>
+            <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="힐스테이트둔산 분양일정안내-image1" />
             <div className={styles.readyContainer}>
            
             </div>

@@ -104,7 +104,7 @@ const Footer = () => {
           {/* COPYRIGHT */}
           <div className={styles.mobileCopyright}>
             <p>
-              COPYRIGHTⓒ 2024 힐스테이트둔산  INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 힐스테이트둔산  INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </div>
@@ -156,7 +156,7 @@ const Footer = () => {
           </div>
           <div className={styles.desktopCopyright}>
             <p>
-              COPYRIGHTⓒ 2024 힐스테이트둔산  INC. ALL RIGHTS RESERVED.
+              COPYRIGHTⓒ 2025 힐스테이트둔산  INC. ALL RIGHTS RESERVED.
             </p>
           </div>
         </>

@@ -3,10 +3,10 @@ import styles from "./EmodelInline.module.scss";
 
 // Emodel.jsx 에 정의된 탭과 URL을 그대로 복사합니다.
 const menuContents = [
-  { title: "59A", key: "59A" },
-  { title: "59B", key: "59B" },
-  { title: "84A", key: "84A" },
-  { title: "84B", key: "84B" },
+  { title: "84A", key: "59A" },
+  { title: "84E1", key: "59B" },
+  // { title: "84A", key: "84A" },
+  // { title: "84B", key: "84B" },
 ];
 
 const vrUrls = {

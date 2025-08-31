@@ -9,9 +9,8 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import { Helmet } from "react-helmet-async";
 
 
-// import page1 from "../../assets/ComplexGuide/ComplexGuide3/page1.jpg";
+import page1 from "../../assets/ComplexGuide/ComplexGuide3/page1.jpg";
 
-import Ready from "../../components/Ready/Ready";
 
 const ComplexGuide3 = () => {
   const menuContents = [
@@ -150,14 +149,22 @@ const ComplexGuide3 = () => {
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
-      {/* <img
+      <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
 				alt="힐스테이트둔산 커뮤니티 안내 -image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
-			/> */}
-
-      <Ready/>
+			/>
+            <div className={styles.commonBox}>
+        <div className={styles.notice}>
+          ※ 상기 호수배치도 이미지는 소비자의 이해를 돕기 위한 것으로 실제와
+          차이가 날 수 있습니다
+        </div>
+        <div className={styles.notice}>
+          ※ 단지 내 조경 및 세부 식재계획, 시설물의 위치는 실제 시공시 현장
+          상황에 따라 변경될 수 있습니다
+        </div>
+        </div>
 
 
       <Footer />

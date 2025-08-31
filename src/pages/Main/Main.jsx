@@ -69,7 +69,7 @@ const section3Contents = [
     imgSrc: section3_Image3,
     title: "PREMIUM 03",
     text1: `의료·생활 인프라 밀집`,
-    text2: `단지 반경 1km 내 병원급 의료시설·
+    text2: `단지 반경 1km 내 병원급 의료시설<br/>
             쇼핑·문화시설 접근 용이`,
     link: "/LocationEnvironment/intro",
     linkText: "더 알아보기 >",
@@ -78,7 +78,7 @@ const section3Contents = [
     imgSrc: section3_Image4,
     title: "PREMIUM 04",
     text1: `쾌적한 자연환경 인접`,
-    text2: `유등천 수변공원·중촌시민공원 인접으로
+    text2: `유등천 수변공원·중촌시민공원 인접<br/>
             힐링 라이프 가능`,
     link: "/LocationEnvironment/primium",
     linkText: "더 알아보기 >",

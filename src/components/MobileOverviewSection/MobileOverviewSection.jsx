@@ -45,7 +45,7 @@ const items = [
           </span>
         </li>
         <li>
-          <strong>세대수</strong>
+          <strong>주차대수</strong>
           <span>
           857세대
           </span>
@@ -109,7 +109,7 @@ function PremiumSlider() {
       img: slide3,
       title: "중심생활권과 이어지는 완벽한 교통망",
       desc:
-        "한밭대로·동서대로 인접, 고속도로·버스터미널·KTX 서대전역 접근 용이<br />자가용·대중교통 모두 편리",
+        "한밭대로·동서대로 인접<br/>고속도로·버스터미널·KTX 서대전역 접근 용이<br />자가용·대중교통 모두 편리",
     },
     {
       img: slide4,
@@ -121,7 +121,7 @@ function PremiumSlider() {
       img: slide5,
       title: "총 600실 규모 힐스테이트 오피스텔",
       desc:
-        "총 600실 오피스텔 타입, 둔산권 핵심 입지에 조성된 프리미엄 스케일<br />현장 방문은 온라인 예약 필수",
+        "총 600실 오피스텔 타입<br/>둔산권 핵심 입지에 조성된 프리미엄 스케일<br />현장 방문은 온라인 예약 필수",
     },
     {
       img: slide6,

@@ -28,13 +28,13 @@ const menuArray = [
       { subTitle: "분양일정", subUrl: "/BusinessGuide/plan" },
     ],
   },
-  {
-    title: "청약안내",
-    subMenu: [
-      { subTitle: "청약제도변경", subUrl: "/SalesInfo/SubscriptionGuide" },
-      { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
-    ],
-  },
+  // {
+  //   title: "청약안내",
+  //   subMenu: [
+  //     { subTitle: "청약제도변경", subUrl: "/SalesInfo/SubscriptionGuide" },
+  //     { subTitle: "모집공고안내", subUrl: "/SalesInfo/announcement" },
+  //   ],
+  // },
   {
     title: "입지환경",
     subMenu: [
@@ -53,19 +53,19 @@ const menuArray = [
   {
     title: "세대안내",
     subMenu: [
-      { subTitle: "59A", subUrl: "/FloorPlan/59A" },
-      { subTitle: "59B", subUrl: "/FloorPlan/59B" },
-      { subTitle: "84A", subUrl: "/FloorPlan/84A" },
-      { subTitle: "84B", subUrl: "/FloorPlan/84B" },
-      { subTitle: "84C", subUrl: "/FloorPlan/114A" },
+      { subTitle: "84A", subUrl: "/FloorPlan/59A" },
+      { subTitle: "84B", subUrl: "/FloorPlan/59B" },
+      { subTitle: "84C", subUrl: "/FloorPlan/84A" },
+      { subTitle: "84D", subUrl: "/FloorPlan/84B" },
+      { subTitle: "84E1", subUrl: "/FloorPlan/114A" },
       { subTitle: "E-모델하우스", subUrl: "/FloorPlan/Emodel" },
     ],
   },
   {
     title: "인테리어",
     subMenu: [
-      { subTitle: "59A", subUrl: "/Interior/59A" },
-      { subTitle: "84A", subUrl: "/Interior/84A" },
+      { subTitle: "84A", subUrl: "/Interior/59A" },
+      { subTitle: "84E1", subUrl: "/Interior/84A" },
     ],
   },
   {
